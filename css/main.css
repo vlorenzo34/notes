@@ -1,0 +1,30 @@
+#header{
+	color: #2BACE0;
+}
+
+#login{
+	background-color: #2BACE0;
+	color: white;
+}
+
+section{
+	margin-top: 6%;
+	margin-bottom: 6%;
+	padding: 25px;
+}
+
+section h1.ui.header{
+	padding: 5px;
+	font-size: 4em;
+}
+
+section h2.ui.header{
+	font-style: normal;
+	font-size: 2em;
+}
+
+#content{
+	margin-top: 10%;
+}
+
+

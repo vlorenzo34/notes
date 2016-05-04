@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>¡Notes is different!</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+
+	<!-- Framework Semantic UI -->
+	<link rel="stylesheet" href="dist/semantic.min.css">
+	<script type="text/javascript" src="dist/semantic.min.js"></script>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<header>
+
+		<!-- Menu pagina principal -->
+		<nav class="ui stackable menu">
+
+		<!-- Header pagina principal nombre del proyecto -->
+			<div class="item">
+				<img src="img/logo.png">
+			</div>
+		  	<!-- Boton para iniciar sesion -->
+			<div class="right menu">
+		    	<div class="item">
+			    	<div id="login" class="ui login button">Iniciar sesión</div>
+			    </div>
+		  	</div>
+		</nav>
+	</header>
+
+	<!-- Seccion Slider -->
+    <section class="ui inverted text center aligned container">
+    	<h1 class="ui header">
+        	Imagine-a-Company
+    	</h1>
+    	<h2 class="ui header">
+    		Do whatever you want when you want to.
+    	</h2>
+    	<div id="login" class="ui huge button">
+    		Empezar
+    		<i class="right arrow icon"></i>
+    	</div>
+    </section>
+
+	<!-- Explicacion web y Formulario Registro -->
+	<section id="content" class="ui stackable two column middle centered padded grid">
+
+		<!-- Resumen web -->
+		<div class="five wide column">
+			<h2 class="ui header">Lorem ipsum dolor sit amet.</h2>
+	    	<h3 class="ui header">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			</h3>
+			<h3 class="ui header">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			</h3>
+		</div>
+
+		<!-- Formulario de registro -->
+		<div class="five wide column">
+	    	<form class="ui form">
+
+	    		<!-- Correo electronico -->
+			 	<div class="field">
+			        <label>Correo electrónico</label>
+			        <div class="ui left icon input">
+			        	<input type="text" placeholder="Email">
+			        	<i class="mail icon"></i>
+			        </div>
+		        </div>
+
+		        <!-- Contraseña -->
+			  	<div class="field">
+			        <label>Contraseña</label>
+			        <div class="ui left icon input">
+			        	<input type="password" placeholder="Password">
+			        	<i class="lock icon"></i>
+			        </div>
+		        </div>
+		        <!-- Crear cuenta -->
+			 	<button  id="login" class="large ui right floated button" type="submit">Crear una cuenta</button>
+			</form>
+		</div>
+  	</section>
+
+	<!-- Pie de la pagina -->
+  	<section id="content" class="ui inverted vertical footer segment">
+	    <div class="ui container">
+	        <div class="ui two column centered padded grid">
+	          <p>© Copyright 2016 notes. Todos los derechos reservados.</p>
+	        </div>
+	  	</div>
+  	</section>
+
+  	<!-- Ventana Modal Iniciar Sesion -->
+  	<section class="ui small modal">
+  		<i class="close icon"></i>
+		<div class="ui header">
+			Iniciar Sesión
+		</div>
+		<div class="ui equal width center aligned padded grid">
+			<div class="column">
+				<form class="ui form">
+					<div class="field">	    
+						<div class="ui left icon input">
+				        	<input type="text" data-content="prueba de popup" placeholder="Email">
+				        	<i class="mail icon"></i>
+			        	</div>
+					</div>
+					<div class="field">
+				    	<div class="ui left icon input">
+				        	<input type="password" placeholder="Password">
+				        	<i class="lock icon"></i>
+			        	</div>
+				  	</div>
+				 	<button id="login" class="large ui left floated button" type="submit">Iniciar sesión</button>
+				</form>
+			</div>
+		</div>
+  	</section>
+</body>
+</html>
