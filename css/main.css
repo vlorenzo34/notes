@@ -23,8 +23,11 @@ section h2.ui.header{
 	font-size: 2em;
 }
 
+section h3.ui.header{
+	font-size: 2.5em;
+}
+
 #content{
 	margin-top: 10%;
 }
-
 
