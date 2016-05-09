@@ -1,19 +1,25 @@
-#header{
-	color: #2BACE0;
+body{
+	display: table;
+	width: 100%;
 }
 
-#login{
+#header{
+	color: #2BACE0;
+	font-size: 1.5em;
+}
+
+#button{
 	background-color: #2BACE0;
 	color: white;
 }
 
-section{
-	margin-top: 6%;
-	margin-bottom: 6%;
-	padding: 25px;
+.ui.slider.grid{
+	padding: 7%;
+	background-color: #1B1C1D;
 }
 
 section h1.ui.header{
+	color: white;
 	padding: 5px;
 	font-size: 4em;
 }
@@ -21,13 +27,29 @@ section h1.ui.header{
 section h2.ui.header{
 	font-style: normal;
 	font-size: 2em;
+	color: white;
 }
 
 section h3.ui.header{
 	font-size: 2.5em;
 }
 
-#content{
-	margin-top: 10%;
+.wide.content.column{
+	padding: 8%;
 }
 
+#content{
+	display: table-row;
+}
+
+.green.button{
+	margin: 5px;
+}
+
+.ui.container{
+	padding: 2%;
+}
+
+.categorias.grid{
+	margin-top: 3%;
+}
